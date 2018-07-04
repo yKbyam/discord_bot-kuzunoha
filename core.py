@@ -13,8 +13,7 @@ basicConfig(level=INFO)
 logger = getLogger(__name__)
 
 # discode Bot token
-TOKEN = 'NDYyNjQ1NzE3NjczMDUwMTE0.Dhk39Q.UgzToZA-6mpdxyUJehkbYHV88MI'
-# TOKEN = os.environ["BOT_TOKEN"]
+TOKEN = os.environ["BOT_TOKEN"]
 
 # discode client
 client = discord.Client()
