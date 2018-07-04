@@ -3,6 +3,7 @@
 # 環境起動
 # source ./bin/activate
 
+import os
 import re
 import discord
 import coingecko
