@@ -3,10 +3,8 @@
 from datetime import datetime, date, timedelta
 from logging import basicConfig, getLogger, DEBUG, INFO
 import json
-# import requests
 import operator
 import httpcon
-# import datetime
 
 
 # ロギング
@@ -41,20 +39,8 @@ INCOME_DISTRIBUTING_LIST = ['bitcoin',
                             'fcoin-token',
                             'tether',
                             'bitcoin-cash',
+                            'finsur',
                             'aeternity']
-
-
-# def getJsonResponse(url):
-#     headers = {'User-Agent': 'bot-748/beta'}
-#     response = requests.get(url, headers=headers)
-#     _logger.info('getJsonResponse() response:{0}'.format(response))
-#     return response.json()
-#
-#
-# def printDict2Json(response_dict):
-#     response_format_json = json.dumps(response_dict, indent=4,
-#                                       separators=(',', ': '))
-#     print(response_format_json)
 
 
 def getTicker(id, date):
