@@ -30,7 +30,6 @@ INCOME_DISTRIBUTING_LIST = ['bitcoin',
                             'ripple',
                             'bitmark',
                             '0x',
-                            'game',
                             'icon',
                             'omisego',
                             'zilliqa',
@@ -39,7 +38,6 @@ INCOME_DISTRIBUTING_LIST = ['bitcoin',
                             'fcoin-token',
                             'tether',
                             'bitcoin-cash',
-                            'finsur',
                             'aeternity']
 
 
