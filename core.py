@@ -9,6 +9,7 @@ import discord
 import coingecko
 from logging import basicConfig, getLogger, DEBUG, INFO
 
+
 # ロギング
 basicConfig(level=INFO)
 logger = getLogger(__name__)
@@ -31,6 +32,12 @@ async def on_ready():
     logger.info('NAME:{0}'.format(client.user.name))
     logger.info('ID:{0}'.format(client.user.id))
     logger.info('------------------------')
+
+
+@client.event
+async def on_reaction_add(reaction, user):
+    emoji = '{0}'.format(reaction.emoji)
+    logger.info('emoji:{0}'.format(emoji))
 
 
 @client.event
