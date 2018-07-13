@@ -37,7 +37,7 @@ async def on_ready():
 @client.event
 async def on_reaction_add(reaction, user):
     emoji = '{0}'.format(reaction.emoji)
-    logger.info('emoji:{0}'.format(emoji))
+    logger.info('emoji:%s' % emoji)
 
 
 @client.event
